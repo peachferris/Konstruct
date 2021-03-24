@@ -1,0 +1,235 @@
+@media (max-width: 1500px) {
+    .footer-container {
+        margin: 0;
+    }
+    .action-container {
+        margin-left: 490px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .action-container button {
+        margin-left: 20%;
+    }
+    .offer-paragraph {
+        font-size: 10px;
+    }
+    .main-paragraph {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .offer {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .action-container button {
+        margin-left: 1%;
+    }
+    .newsletter-container {
+        margin: 0 10%;
+        display: inline-block;
+    }
+    form {
+        display: flex;
+        margin-top: 20px;
+    }
+    .capability-cards {
+        grid-gap: 4%;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .main-paragraph {
+        font-size: 10px;
+    }
+    .link-list__item {
+        font-size: 9px;
+    }
+    .information-wrapper p {
+        font-size: 9px;
+        height: 0;
+    }
+    .contacts-wrapper {
+        font-size: 9px;
+    }
+    .action-container {
+        margin: 300px 400px;
+    }
+    .information-container {
+        display: inline-block;
+    }
+    .information-container__items:nth-child(3) {
+        margin-left: 0; 
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsletter-container {
+        margin-left: 15%;
+    }
+    .action-container {
+        margin: 300px 310px;
+    }
+    .container {
+        padding:  50px;
+    }
+    .capability-cards {
+        grid-template-columns: 1fr;
+        margin-top: 70px;
+        margin-left: 30%;
+    }
+    .text-offer--container {
+        margin-left: 25%;
+        text-align: center;
+    }
+    .text-offer--container p {
+        margin-left: 25%;
+    }
+    .capability-header p {
+        display: none;
+    }
+    .img-offer--container {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 35%;
+    }
+    .story-section {
+        margin-bottom: 0;
+    }
+    .information-container {
+        margin-left: 25%;
+    }
+    .information-container:nth-child(2) {
+        margin-top: 30px;
+    }
+    .two {
+        margin-top: 65px;
+    }
+    .links-container__item {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .capability-cards {
+        margin-left: 20%;
+    }
+    .action-container {
+        margin: 300px 100px;
+    }
+    .newsletter-container {
+        margin-left: 5%;
+    }
+    .text-offer--container {
+        margin-left: 5%;
+    }
+    .text-offer--container p {
+        margin-left: 20%;
+    }
+    .img-offer--container {
+        grid-template-columns: 1fr 1fr 1fr;
+         margin-left: 0; 
+    }
+    
+    .decorate-item__one {
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 425px) {
+    .newsletter-container {
+        margin-left: -10px;
+    }
+    .action-container button {
+        margin-left: 15%;
+    }
+    .container {
+        padding: 20px;
+    }
+    .img-offer--container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-offer--container {
+        margin-left: 0;
+    }
+    .text-offer--container p {
+        margin-left: 18%;
+    }
+    .capability-cards {
+        margin-left: 15%;
+    }
+    .information-container {
+        margin-left: 20%;
+    }
+    .information-title {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .information-wrapper p {
+        text-align: center;
+    }
+    .information-wrapper img {
+        margin: 0 auto;
+        display: block;
+    }
+    .contacts-wrapper {
+        font-size: 12px;
+        margin-left: 25%;
+    }
+    .links-title {
+        margin-bottom: 15px;
+    }
+    .links-container {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    h1{
+        font-size: 48px;
+    }
+    .paragraph {
+        margin-top: 20px;
+    }
+    .text-offer--container h2 {
+        font-size: 14px;
+        width: 300px;
+    }
+    .img-offer--container {
+        grid-template-columns: 1fr;
+        margin-left: 23%;
+    }
+    .text-offer--container p {
+        margin-left: 15%;
+    }
+    .capability-cards {
+        margin-left: 3%;
+    }
+    .main-paragraph {
+        width: 200px;
+    }
+    .action-container {
+        margin: 300px 10px;
+    }
+    .action-container button {
+        margin-left: 25%;
+    }
+    form {
+        display: inline-block;
+        margin-left: 10%;
+    }
+    form button{
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+    .newsletter-container h2 {
+        margin-left: 10%;
+    }
+    .links-container {
+        margin-left: -15px;
+    }
+    .information-container {
+        margin-left: 15%;
+    }
+}

@@ -1,0 +1,22 @@
+.action-section {
+    background-image: url(/img/background/second-bg.jpg);
+    position: relative;
+}
+.action-container {
+    position: absolute;
+    max-width: 350px;
+    margin: 300px 440px
+}
+.action-container h2 {
+    text-transform: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.action-container button {
+    position: relative;
+    display: inline-block;
+    margin-left: 25%;
+}
