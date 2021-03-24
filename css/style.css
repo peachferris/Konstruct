@@ -6,7 +6,7 @@
 @import "_overall.css";
 
 /* components imports */
-@import "components/__header.css";
+@import "/components/__header.css";
 @import "components/__story.css";
 @import "components/__capability.css";
 @import "components/__action.css";
