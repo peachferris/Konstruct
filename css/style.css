@@ -1,16 +1,16 @@
-@import "_normalize.css";
-@import "_fonts.css";
-@import "_variables.css";
-@import "_vendor.css";
-@import "_global.css";
-@import "_overall.css";
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "vendor.css";
+@import "global.css";
+@import "overall.css";
 
 /* components imports */
-@import "/components/__header.css";
-@import "/components/__story.css";
-@import "/components/__capability.css";
-@import "/components/__action.css";
-@import "/components/__newsletter.css";
-@import "/components/__footer.css";
+@import "/components/header.css";
+@import "/components/story.css";
+@import "/components/capability.css";
+@import "/components/action.css";
+@import "/components/newsletter.css";
+@import "/components/footer.css";
 
 @import "media.css";
