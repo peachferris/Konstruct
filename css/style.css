@@ -6,11 +6,11 @@
 @import "overall.css";
 
 /* components imports */
-@import "/components/header.css";
-@import "/components/story.css";
-@import "/components/capability.css";
-@import "/components/action.css";
-@import "/components/newsletter.css";
-@import "/components/footer.css";
+@import "components/header.css";
+@import "components/story.css";
+@import "components/capability.css";
+@import "components/action.css";
+@import "components/newsletter.css";
+@import "components/footer.css";
 
 @import "media.css";
