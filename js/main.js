@@ -2,7 +2,7 @@
 const 
       burger = document.querySelector('.burger'),
       close = document.querySelector('.menu__close'),
-      menu = document.querySelector('.menu'),
+      menu = document.querySelector('.menu__nav'),
 
 const anchors = document.querySelectorAll('a[href*="#"]')
 
@@ -20,7 +20,7 @@ for (let anchor of anchors) {
 }
 
 burger.addEventListener('click', () => {
-    menu.classList.add('main-menu--visible');
+    menu__nav.classList.add('main-menu--visible');
 });
 
 close.addEventListener('click', () => {
