@@ -3,8 +3,7 @@ const
       burger = document.querySelector('.burger'),
       close = document.querySelector('.menu__close'),
       menu = document.querySelector('.menu__nav'),
-
-const anchors = document.querySelectorAll('a[href*="#"]')
+      anchors = document.querySelectorAll('a[href*="#"]');
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
