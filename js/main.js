@@ -16,14 +16,14 @@ for (let anchor of anchors) {
       block: 'start'
     })
  })
-}
+};
 
 burger.addEventListener('click', () => {
-    menu.classList.add('main-menu--visible');
+    menu.classList.add('menu--visible');
 });
 
 close.addEventListener('click', () => {
-    main-menu.classList.remove('main-menu--visible');
+    menu.classList.remove('menu--visible');
 });
 
 
