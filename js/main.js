@@ -2,7 +2,7 @@
 const 
       burger = document.querySelector('.burger'),
       close = document.querySelector('.menu__close'),
-      menu = document.querySelector('.menu'),
+      menu = document.querySelector('.main-menu'),
       anchors = document.querySelectorAll('a[href*="#"]');
 
 for (let anchor of anchors) {
