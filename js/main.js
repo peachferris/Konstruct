@@ -22,7 +22,7 @@ burger.addEventListener('click', () => {
     menu.classList.add('main-menu--visible');
 });
 
-close.addEventListener('click', () => {
+burger.addEventListener('click', () => {
     menu.classList.remove('main-menu--visible');
 });
 
