@@ -19,11 +19,11 @@ for (let anchor of anchors) {
 };
 
 burger.addEventListener('click', () => {
-    menu.classList.add('main-menu--visible');
+    menu.classList.add('menu--visible');
 });
 
-burger.addEventListener('click', () => {
-    menu.classList.remove('main-menu--visible');
+close.addEventListener('click', () => {
+    menu.classList.remove('menu--visible');
 });
 
 
